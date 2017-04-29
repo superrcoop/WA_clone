@@ -1,26 +1,45 @@
-#'WhatsApp' IRC clone 
+# 'WhatsApp' IRC clone
 
+## Getting Started
 
-##Deploy
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
 
-`git clone`
+* Text editor
+* Git 
+* Windows/Linux/Mac 
 
+### Deployment
 
-`cd <directory>`
+[On Linux]
 
-
-`gcc -o server server.c && gcc -o client client.c`
-
-
-Using two terminals:
-
+Clone repo:
+```
+$ git clone https://github.com/superrcoop/WA_clone.git
+```
+Navigate to directory:
+```
+$ cd WA_clone/
+```
+Compile and Debug:
+```
+$ gcc -o server server.c && gcc -o client client.c
+```
 Terminal 1:
+```
+$ ./server <Port Number>
+```
+Terminal 2:
 
+```
+$ ./client <Port number>
+```
 
-`gdb server && run`
+### Contributing
 
+Contributions are very welcome, we can definitely use your help!
 
-`gdb client && run`
+## Built With
 
-
+Fedora 25, GCC and GDB.
