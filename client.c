@@ -1,7 +1,6 @@
 /* This is a 'Whatsapp' client in the internet domain using TCP,
    The port number and username is passed as an argument.
-
-    620085730 and 05026664 */
+ */
 
 #include <stdio.h>
 #include <sys/types.h> 
