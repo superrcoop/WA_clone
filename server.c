@@ -2,8 +2,7 @@
    The port number is passed as an argument. 
    This version runs by forking off a separate 
    process for each connection.
-
-   620085730 and 05026664 */
+*/
 
 #include <stdio.h>
 #include <sys/types.h> 
