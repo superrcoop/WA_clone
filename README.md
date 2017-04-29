@@ -28,12 +28,12 @@ $ gcc -o server server.c && gcc -o client client.c
 ```
 Terminal 1:
 ```
-$ ./server <Port Number>
+$ ./server <port Number>
 ```
 Terminal 2:
 
 ```
-$ ./client <Port number>
+$ ./client <username> <port number>
 ```
 
 ### Contributing
